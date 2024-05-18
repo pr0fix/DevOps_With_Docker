@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  frontend:
+      image: frontend
+      ports:
+          - 5000:5000
+      command: [ "serve", "-s", "-l", "5000", "build" ]
+      depends_on:
+        - backend
+
+  backend:
+      image: backend
+      ports:
+          - 8080:8080
