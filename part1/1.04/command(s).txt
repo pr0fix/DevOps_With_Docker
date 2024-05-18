@@ -1,0 +1,6 @@
+Start process:
+$ docker run -it ubuntu sh -c 'while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
+
+Commands to fix problems:
+$ docker container exec gracious_yalow apt-get update
+$ docker container exec gracious_yalow apt-get -y install curl

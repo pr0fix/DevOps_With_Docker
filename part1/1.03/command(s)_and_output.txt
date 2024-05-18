@@ -1,0 +1,5 @@
+$ docker run -d --rm -it devopsdockeruh/simple-web-service:ubuntu
+791a40d3ad61ce0168f19b25ba37bebf44299e55862066597a6f68e0d922bd67
+
+$ docker exec -it heuristic_carver tail -f ./text.log
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
