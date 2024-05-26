@@ -20,12 +20,12 @@ This is a Dockerized version of my personal trainer app.
 ### Installation steps
 
 1. Pull the Docker image:
-```sh
-docker pull pr0fix/personaltrainerapp
-```
+  ```sh
+  docker pull pr0fix/personaltrainerapp
+  ```
 2. Run the container:
-
-- docker run -p 3000:3000 pr0fix/personaltrainerapp
-
-3. Access app via browser:
+  ```sh
+  docker run -p 3000:3000 pr0fix/personaltrainerapp
+  ```
+4. Access app via browser:
    http://localhost:3000/personalTrainerApp/
