@@ -27,5 +27,5 @@ This is a Dockerized version of my personal trainer app.
   ```sh
   docker run -p 3000:3000 pr0fix/personaltrainerapp
   ```
-4. Access app via browser:
+3. Access app via browser:
    http://localhost:3000/personalTrainerApp/
