@@ -10,8 +10,7 @@ I used Render.com to deploy my dockerized personal trainer application. Here's w
 4. Pressed "Create Web Service" and Render handled the rest, pulling the repository, building the image and deploying the app.
 
 ## Link to running app:
-
-https://personaltrainerapp-9t32.onrender.com/
+https://personaltrainerapp-9t32.onrender.com/personalTrainerApp/
 
 ## Link to my project GitHub-repository
 
