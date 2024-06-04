@@ -4,7 +4,7 @@ I already did this part in the last exercise 2.09 by removing port mappings from
 
 ## With the service running doing a nmap port scan results to this:
 ```sh
-$  docker run -it --rm --network host networkstatic/nmap localhost
+$ docker run -it --rm --network host networkstatic/nmap localhost
 Starting Nmap 7.92 ( https://nmap.org ) at 2024-06-04 15:41 UTC
 Nmap scan report for localhost (127.0.0.1)
 Host is up (0.0000030s latency).
